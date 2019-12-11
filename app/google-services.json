@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70060480407",
+    "firebase_url": "https://ride-bit-7f5b9.firebaseio.com",
+    "project_id": "ride-bit-7f5b9",
+    "storage_bucket": "ride-bit-7f5b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70060480407:android:71bd38c792aa4809e756d2",
+        "android_client_info": {
+          "package_name": "com.example.ride_bit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70060480407-6ecokl7923c3p19up24e9m7altivqhvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ride_bit",
+            "certificate_hash": "4431d7c048fc172bef3c2af217c858ec923a96d0"
+          }
+        },
+        {
+          "client_id": "70060480407-ilr9nbe4vpl95vbj1sisn1tnbu4oqdqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI_TIXG4EUtjn1BIBthczgKpPgGRi3-_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70060480407-ilr9nbe4vpl95vbj1sisn1tnbu4oqdqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

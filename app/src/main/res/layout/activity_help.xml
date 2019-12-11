@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/backhelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/gray"
+                android:textSize="30dp" />
+
+            <include
+                layout="@layout/card_one">
+            </include>
+            <include
+                layout="@layout/card_two">
+            </include>
+
+            <include
+                layout="@layout/card_three">
+            </include>
+            <include
+                layout="@layout/card_four">
+            </include>
+            <include
+                layout="@layout/card_five">
+            </include>
+            <include
+                layout="@layout/card_six">
+            </include>
+            <include
+                layout="@layout/card_seven">
+            </include>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
+
+</FrameLayout>

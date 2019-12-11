@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    android:background="@color/white"
+    tools:context=".LogInMainUser">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-8dp"
+        android:src="@drawable/header" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:layout_marginTop="60dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/gray"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/google_log_in"
+            android:drawableLeft="@drawable/google"
+            android:layout_gravity="center"
+            android:text="Sing Up with Google"
+            android:paddingLeft="50dp"
+            android:paddingRight="30dp"
+            android:textColor="@android:color/white"
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/btn_gray"
+            android:textAllCaps="false"
+
+            android:textSize="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="6dp"
+                android:background="@color/gray"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="6dp"
+                android:background="@color/gray"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_log_in"
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_gray_border"
+            android:text="I'll use my Email"
+            android:textAllCaps="false"
+            android:textColor="@color/gray"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alredy have an account?"
+                android:textSize="14dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+
+                android:id="@+id/singIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sing in"
+                android:textStyle="bold"
+                android:textColor="@color/gray"
+                android:textSize="14dp"
+                android:layout_marginLeft="6dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-40dp"
+        android:src="@drawable/foder" />
+
+
+</RelativeLayout>
